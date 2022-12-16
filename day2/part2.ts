@@ -22,6 +22,8 @@
 import strategyGuide from "input";
 
 // enum for choices based on elf input
+// const RoundChoices = ["A", "B", "C"] as const;
+// type RoundChoice = typeof ChoiceOptions[number];
 enum RoundChoice {
   Rock = "A",
   Paper = "B",
